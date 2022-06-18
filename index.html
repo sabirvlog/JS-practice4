@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css"
+	 href="style.css">
+	<title>Prompt Functions- JavaScript Tutorial #04</title>
+</head>
+<body>
+	
+	<b>Result:</b> <i id="res"></i>
+
+<br>	
+<br>	
+	<button onclick="Call()">Call</button>
+	
+
+
+				<h1>Tutorial about Prompt() Function</h1>
+</body>
+		<script>
+			// var call = prompt("What is your name type below? ","");
+			// document.write(call);
+
+			function Call() {
+				var call = prompt("What is your name type below? ","");
+				 // alert(call);		
+				 // we will use alert function to check errors and find out solutions
+
+				// var result = "your name is " + call; 
+				// "+" plus used to concatenate means(for adding two parts/values) 
+				// document.getElementById('res').innerHTML = result;
+				document.getElementById('res').innerHTML = call;
+
+				}
+				// we will use ".innerHTML" if we want to save or print the result value into a search box or any place like into an "input" tag represented by an ID
+
+           // we will use ".value" if we want to target the inner value of a search box or any place like value of "input"
+ 		</script>
+</html>
